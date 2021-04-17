@@ -6,11 +6,11 @@ import PageDetailTitle from "parts/PageDetailTitle";
 import FeaturedImage from "parts/FeaturedImage";
 import PageDetailDescription from "parts/PageDetailDescription";
 import BookingForm from "parts/BookingForm";
-
-import ItemDetails from "json/itemDetails.json";
 import Categories from "parts/Categories";
 import Testimony from "parts/Testimony";
 import Footer from "parts/Footer";
+
+import ItemDetails from "json/itemDetails.json";
 
 export default class DetailsPage extends Component {
   componentDidMount() {

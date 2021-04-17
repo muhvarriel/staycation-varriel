@@ -15,9 +15,9 @@
   white-space: $btn-white-space;
   vertical-align: middle;
   user-select: none;
-  background-color: transparent;
+  background-color: $gray-200;
   border: $btn-border-width solid transparent;
-  min-height: 50px;
+  min-height: 10px;
   min-width: 210px;
   @include button-size(
     $btn-padding-y,
